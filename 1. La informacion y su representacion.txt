@@ -1,0 +1,335 @@
+--1 Terminologia y conceptos generales
+
+1.1-Definicion onformativa
+	se conoce con el nombre de telecomunicaciones a la disciplina que se encarga de
+	estudiar los metodos y tecnologias para la transmision de la informacion.
+	por otra parte el hombre ha tenido la necesidad de recoger, tratar y estudiar
+	esta informacio, hemos creado maquinas para poder realizar estas labores de una forma mas sencilla,
+	la disciplina encargada de estudiar y crear estas maquinas es conocida como la inforamtica
+	
+	la inforcatica nacion con la intecencion de ayudar al homobre en aquellos trabajos rutinarios y repetitivos
+	generalmente de calculo y de gestion donde es frecuente la repeticion de tareas, el termino informatica
+	fue implementado por el frances Phillipe Dreyfus
+	
+	de esta forma la inforcatica se refiere al procesamiento automatico de informacion mediante dispositivos 
+	electronicos y sistemas computacionales
+	estos sitemas tiene que cumplir tres tareas:
+		-Entrada: captacion de la informacion
+		-Procesamiento
+		-Salida: Transmision de los resultados
+
+1.2-Elemtentos y conceptos basicos
+	El ordenador es una maquina compuesta de elementos fisicos, en su mayoria de origen electronico
+	capaz de realizar una gran precision, siempre que le de las estrucciones adecuadas
+	
+	El ordenador es una maquina capaz de resolver cualquier problema siempre que este este especificado
+	mediante una serie de instrucciones (programa):
+		-El conjunto de ordenes que se le dasn a un ordenador para realizar un determinador proceso
+		es denominado programa
+		-El conjunto de uno o varios programas mas la documentacion correspondiente para realizar
+		un determinado trabajo se denomina aplicacion informatica
+	
+	Se puede decir que una aplicacion informatica es un macro programa que consta de varios
+	programas independientes aunque interrelacionados (programas que funcionan de forma autonoma pero que 
+	pueden necesitar la informacion  que se a procesado en otro programa del macro programa)
+	
+	Llamamos hardware a todo elemento fiscio de un sistema inforamtica
+
+1.3-Concepto de informacion
+	Que es informacion, que es realmente aquello que estamos continuamente que estamos diciendo que transimitimos y tratamos?
+	
+	Se define informacion como el conjunto de simbolos que representanalgun echo, concepto, u objeto del mundo real, por otra parte
+	llamamos datos al conjunto de expresiones que denotan valores, magnitudes, condiciones, estados, etc.
+	Dentro de la inmesa cantidad de informacion que maneja un ordenador existe una categoria especial las instrucciones, estas son grupos
+	de caracteres organizados en grupos que representan ordenes apra el ordenador y que sirven para para actuar sobre datos por 
+	ejemplo modificandolos
+
+1.4-Sistemas de informacion
+	Hemos aprendido que el ordenador es la maquina encargada de realizar el tramiento automatico de la informacion, pero para que esto
+	suceda, la informacion tendra que transmitirse o trasladarse desde el exterior hasta el interior de la maquina, para que esto sea posible
+	son necesarios tres elementos:
+		-Un elemento emisor que de origen a la informcion, en nuestro caso, un elememto exterior
+		-Un medio que permita la transimision de la informacion y que la haga llegar desde el emisor hasta el destinatario
+		-un receptor que reciba la informacion del exterior a traves del medio de transimision y que en nuestro caso sera el propio ordenador
+	
+	una vez que la informacion esta en el intireor del ordenador se puede empezar a actuar sobre la misma, ralizando las transformaciones que 
+	sean necesarias para la consecucion del objetico que se persiga, Al conjunto de operaciones que se realiza sobre la informacion se le 
+	denomina tratamiento de la informacion
+	
+	En terminos generales, se denomina entrada al conjunto de operacion cuya mision es tomas los datos del exterior, del medio y depositarlos
+	en el interior del ordenador; para ello, en ocasiones es necesario realizar operaciones de depuracion o validacion de los mismos para evitar
+	la introducion de datos erroneos o que no cumplan los requerimientos que se espera de ellos.
+	
+	los datos una vez dentro del ordenador deben quedar depositadaso en la memoria para su posterior tratamiento, al conjunto de operaciones
+	que se realizara sobre estos datos para su posterior resultados o datos de salida se llama proceso o algoritmo, y consiste generalmente en 
+	una combinacion adeucada de operaciones arritmeticas (sumas, restas, multiplicacion, etc...), y comprobaciones logicas (comparaciones de
+	igualdad, desisguladad, etc...), de cuya ejecucion se obtiene la solucion al problema
+	
+	por ultimo, se denomina salida al conjunto de operandos que proporcionan los resultados de un proceso, 
+
+2-- La informacion y su representacion interna
+
+	Anteriormente se ha visto que el ordenador es la maquina que se utiliza para procesar (recoger, tratar, y mostrar) informacion. Pero como
+	se representa internamente decha informacion en el ordenador.
+	Los ordenadores, debido a su construccion, solamente pueden trabajar en forma binaria. Un ordenadore sta compuesto de circutios electronicos
+	sobre los cuales solo se puece evaluar si hay o no hay corriente; por lo tanto, solo se reconocen dos estados o valores:
+		·"1" Si hay tension o corriente en un punto
+		·"2" si no hay tension
+	Sin embargo el ordenador apra comuncarse con nostros no utiliza el sistema biario sino otros sistemas de numeracion como el 
+	octal, hexadecimal y el decimal
+
+2.1-Sistemas de numeracion
+	Los sistemas de numeracion son un conjunto de simbolos y reglas que nos sirve apra representar ciertas cantidades.
+
+2.2-Codificacion de la informacion
+	En informatica en frecuente codificar la informacion. Codificacion es la transoformacion que representa los elementos de un conjunto
+	mediante los de otro, de tal forma que a cada elemento del primer conjunto le corresponde un elemto distinto del segundo
+	Con los codigos se puede comprimir y estructurar la informacion. Pueden definirse codigos consignificado
+	
+	En el interior de los computadores la informacion se almacena y se transfiere de un sitio a otro segun un codigo binario representado por 0 y 1.
+	En el interior de los computadoresse efectuan automaticamente los cambios de codigo oportunos para que en su exterior la informacion
+	sea directamente comprendida por los usuarios
+
+2.3-Bit, byte y sus multiplos
+	Bit: La unidad mas elemtenlas de la informacion es un valor binario, conocido coo Bit
+	Byte: es el numero de bit necesario para almacenar un carter. Este numero depende del codigo utilizado por el computadores	
+		  siendo generalmente 8, por lo que habitualmente se utiliza como sinonimo de 8 bit u octeto, la capacidad de almacenamiento 
+		  de un ordenador se mide en bytes y sus multiplos
+	
+	Las unidades de medida de almacenamiento se pueden basar en los multiplos del sustema decimal utilizado por el sistema internacional
+	(kilo-, mega-, giga-, tera-, peta-, exa-, zetta-, yotta-) o del sistema binario (kibi-, mebi-, tebi-, pebi, exbi-, zebi-, yobi-)
+
+2.4-Sistemas Posicionales
+	Los sitemas de numeracion sons sitemas posiciones. Eso signifa que cada digito tiene un valor definido por su posion
+
+2.5-Teorema fundamental de la numeracion
+	Este teorema fundamtenal expone la representacion de una catidad en us sistema es dado pir una formula
+
+2.6-El sistema decimal
+	El sistema decimal es el mas conocido por nosotros, pues es el que utlizamos todos los dias. El sistema decimal:
+		·Es uno de los sistemas posicionales, al igual que el resto de sisteams que vamos a estuc¡dias, pues utiliza un conjunto de simbolos cuyo
+		significado o valor depende de su posicion relativa al punto decimal
+		·La base de este sistema de numeracion es 10, que es tambien la cantidad de cifras o simbolos distintivos
+		·Los simbolos o cifras distintivos que utiliza el sistema decimal son los siguientes: 0 1 2 3 4 5 6 7 8 9
+	
+	En este sistema, un numero que se expresa como una cadena de estas cifras, donde cada cifra aporta un valor al numero, valor que depende
+	tanto del valor intrinseco de la propia cifra, como de la posicion que ocupa en la cadena, al ser un sisteam de numeracion posicional.
+	Un determinado valor o cantidad, que denominaremos numeros decimal, se puede expresar de la siguiente forma:
+	
+2.7-El sistema binario
+	Es el sistema que utilizan internamente los circuitos digitales que se conforman el hardware de los ordenador.
+	El sistema binario:
+		·el sistema binario es un sisteamde numeracion posicional que recordenmos que el valor de cada cifra 
+		 viene dado tanto por su valor intrinseco como su posicion dentro de la cadena de cifras
+		·La base de este sistema de numeracion es 2. La base es 2 los que quiere decir que solo dispone de dos simbolos 1 y 0
+		 para contruir todos los numeros binarios
+		·Cada cifra o digito de un numero representado en este sistema se denominda bit que es la menor unidad de informacion 
+		 posible de un ordenado
+
+2.8-El sistem octal
+		·La base de este sistema es 8 por lo que disponemos de los simbolos 1 2 3 4 5 6 7 8 para contruit todos los numeros
+		·El igual que el sistema decimal y binario este es un sisteam posicional
+
+2.9-El sistema hexadecimal
+	El sistema hexademial actual fue introduciono en el ambiro de la computacion por primera vez por IBM en 1963
+	El sistema hexadecimal:
+		·La base de este sistema de numeracion es 16 loq eu queire decir que desponemos de (1 2 3 4 5 6 7 8 9 A B C D E F)
+		 las letras que se utilzan adopan valores por orden arcendete, es decir A=10, B=11, etc...
+		·Al igual que el sistemadecima, el binario  y el octal es un sisteam de numeracion posicional
+2.10-Conversion entre Decimal, Binario, Hexadecimal y Octal
+	2.10.1 Conversion de Binario a Decimal
+		Para poder transformar de binario a decimal, basta con multiplicar el numero binario por 2 elevado a la potencia correspondientede
+		dependiendo de su posicion
+		Ejemplo
+		100011,01
+		1*2^5 + 0*2^4 + 0*2^3 + 0*2^2 + 1*2^1 + 1*2^0 + 1*2^4 + 0*2^-1 + 1*2^-2
+	
+	2.10.2 Conversion de decimal a base 10
+		Aprender formulas
+		
+	2.10.3 Conversion de decimal a binario
+		se realiza dividiendo entre dos de forma consecutica hasta que el resultado de la operacion es 1 o 0 y se cojen los resultados siendo el 
+		escrito tomando como valor mas cercano al punto decimal el primer resto y asi consecutivamente
+	
+	2.10.4 Conversion de decimal a octal
+		se puede realizar de la misma manera pero dividiendo entre 8
+		los mismo se puede hacer tambien apra hexadecimal dividiendo entre 16
+	
+	2.10.5 Conversion de Hexadecimal a binario	
+		Aprender formula
+	
+	2.10.6 Conversion de binario a hexadecimal 
+		aprender formula
+	
+	2.10.7 Conversion de octal a binario
+		aprender formula
+	
+	2.10.8 Conversion de binario a octal
+		aprender formula
+
+2.11- Representaciom interna de numeros enteros
+	el ordenador utliza lo que se conoce como coma fija o punto fijo para representar este tipo de numeors (enteros tanto positivos como negaticos)
+	
+	2.11.1 Binario puro o coma fija sin signo
+		los numeros escritos en binario puro solo pueden ser positivos, ya que en este tipo de representado los numeros negativos  no estan 
+		contemplados. su rando de representacion va desde el numero 0 hasta el numero (2^n-1) siendo "n" el numero de bits dedicados a representar
+		a los numeros enteros
+	
+	2.11.2 Signo magnitud o coma fija con singo
+		El bit de la izquierda sirve para representar el signo 
+			- El 0 para el signo + 
+			- El 1 para el signo -
+		Su rango de representacion va desde (-2^(n-1)+1, 2^(n-1)-1)
+		
+	2.11.4 Complemto a 1		
+		En este sistema de representacion, los numeros positivos se expresan igual que en Signo magnitud o que en Binario Puto. Sin embargo para escribir
+		los numeros negativos se utiliza el complento a la base -1
+		
+		Su rando de representacion va desde  (-2^(n-1)+1, 2^(n-1)-1)
+		
+	2.11.5 Complemento a 2
+		En est sistema de representacion, los numeros positivos se expresan igual que en Signo Magnitud o que en binario puro.
+		Sin embargo para escribir los numeros negativos se utiliza el complento a la base 
+		
+		Su rango de representacion va desde (-2^(n-1), 2^(n-1)-1)
+	
+	2.11.6 Decimal desempaquetao
+		Representa cada numero decimal, de tal forma que cada una de las cifras ocupa un byte u octetp en los que:
+			·los 4 bits de la izquierda son denominados bits de zona
+			·los 4 bits de la derechra representan a la cifra
+		exceptuando los 8 bots de mas a la dereca
+			·los 4 bits de la izquierda represetan el signo
+				-1100 para el signo +
+				-1101 para el signo -
+			·los 4 bits de la derecha representan la cifra
+	
+	2.11.7 Decimal empaquetado
+		representa cada cifra con un conjuntod e 4 bits. el conjunto de 4 bits de mas a la derecha se usa para representar
+		el signo con la misma combinacion de bits que en el caso anterior
+	
+	2.11.8 Exceso a 2(n-1)
+		aprender formula
+
+2.12-representacion interna de numeros reales
+	en algunas ocsaiones encesitamos que el ordenador fuera capaz de guardar numeros con decimales, cuando el equipo debe de guardar este tipo de datos
+	se utuliza la representacion en punto flotante
+	en este sistema un numero es representado con 3 campos:
+		·1 bit de signoa que sera 0 si el numero es positivio y 1 si el numero es negativos
+		·Exponente. Recoge la codificacion del numero que hace de exponente en la notacion cientifica
+		·mantida. recoge la codificacion del numero despues del 0 de la notacion cienticifia
+		
+	(aprender a usar la formula)
+
+2.13-Codificacion alfanumerica
+	El ordendaro trabaja con datos alfanumericosc como pueden ser los sigueintes:
+		·caracteres alfaveticos
+			(Ketas mayusculas de la A a la Z sin la Ñ)
+			(letras minusculas de la a a la z sin la ñ)
+		·cifras decimales
+			(1 2 3 4 5 6 7 8 9 0 pero tratados como caracteres)
+		·caracteres especiales	
+			(caracteres como el punto la coma el asteriscos)
+			(ordenes de control: NUL, CR, ACK, etc)
+	
+	el ordenadort utiliza un codifo especial para guardar todos estos caracteres, los primeros codigos utilizados fueronde 6 bits, esto quiere decir que cada
+	caracter se le asigna un numeor de 6 bits, un ejemplo de este codigo es el cofigo FIELDATA (en este codigo el carater T se guardaria como 011001)
+	
+	Con el nacimiento de lenguajes de programacion de alto nivel comenzaron a utulizarse codigos de 7 bits, un ejemplo muy utilizado de este codigo es el codigo
+	ASCII de 7 bits. aunque hoy en dia los codigos mas utilizados son el ascii extendido (8 bits) y el unicode (16 bits)
+
+2.14-Operadaciones elementales con numeros binarios
+	la unidad aritmetico logca en la CPU del procesadi es capaz de realizar operaciones artimeticas, con los datos numericos expresados en binario
+	
+	2.14.1 Suma en binario
+		la tabla de sumar en binario es mas sencilla que en decimal:
+			0+0 = 0
+			0+1 = 1
+			1+0 = 1
+			1+1+ = 10 (si es una suma completa me llevo una)
+			
+	2.14.2 Ssutraccion en binario	
+		la tabla de restas en binario es la siguiente
+			0-0 = 0
+			1-0 = 1
+			1-1 = 0
+			
+			si tenemos que restar 0-1 tomamos una unidad prestada igual que en el sistema decimal
+	
+	2.14.3 complemtento a 2
+		aprender formula
+	
+	2.14.4 complemento a 1
+		aprender formula
+	
+	2.14.6 Multiplicacion binaria
+		la multiplicacion resulta mas facil que en cualuquier otro sistema de numercaion , esta se realiza mediante sumas repetidas
+		haciendose cada una un punto mas a la izquierda que la anterior
+	
+	2.14.7 division binaria
+		aprender formula
+
+--3 CIRCUITOS INTEGRADOS
+	un circuito integrado es una combinacion de elemtos de un circuito que estan miniaturizzados y que forman parte de un mismo chip o soporte
+	dichos circuitos aceptaran una serie de valores de entrada y devueve una salida que dependera de los valores dados, ademas estan
+	fabricados con una funcion especifica, como pueden ser operaciones aritmeticas, funes logicas, emplificacion, etc...
+	
+	A su ves estas resustencias, transitores, etc.. forman las denominadas puertas logicas
+	Estos circuitos integrados generalmente se combinan para formar sistemas mucho mas complejos como puede ser un reloj digital, una calculadora, etc
+	
+3.1-Clasificacion de los circuitos integrados deacuerdo a su estructura
+	dependiendo de el numero de puertas logicas que formen un circuito itegradoe ste se denomiara de distintas maneras:
+		·SSI: Significa SMall Scale Integration (integracion en pequeña escala) y comprende los chips que contienen menos de 12 puertas
+		·MSI: Significa Medium Scale Integration (integracion en mediana escala) y comprende los chips de 13 a 100 puertas
+		·LSI: Significa Large-Scale Integrarion (integracion en alta escala) y comprende los chips que contiene de 100 a 1000 puertas 
+			  (EJ. microprocesadores de 8 y 16 bits)
+		·VLSI: Significa Very Large SScale Integration (integracion en muy alta escala) y comprende los chips que contienen de 1000 a 10000 puertas
+		·ULSI: Significa Ultr LArge Scale Interation, entre 10000 y 100000 puertas, se usan para fabricar microprocesadores complejos
+		
+3.2-Puertas logicas
+	las puertas logicas son circuitos capaces de realizar operaciones logicas basicas, ademas es la unidad basica sobre la que se diseña un circuito
+	integrado, una puerta logica es un dispositivo electronico con una funcion booleana
+	
+	3.2.1 Puerta logica AND
+		la señan AND solo se activa cuando se activan todas las señales de entrada
+		0 AND 0 = 0
+		0 AND 1 = 0
+		1 AND 1 = 1
+	
+	3.2.2 Puerta logica OR
+		La señas de salida se activa solo cuando alguna de las señales se actica
+		0 OR 0 = 0
+		0 OR 1 = 1
+		1 OR 0 = 1
+		1 OR 1 = 1
+	
+	3.2.3 Puerta logica NOT
+		La señal de salida inierte la señal de entrada
+	
+	3.2.4 Puerta logica NAND
+		Es la puerta and negada
+		0 NAND 0 = 1
+		0 NAND 1 = 1
+		1 NAND 0 = 1
+		1 NAND 1 = 0ç
+	
+	3.2.5 Puerta logica NOR
+		es el complemento de la funcion OR
+		0 OR 0 = 1
+		0 OR 1 = 0
+		1 OR 0 = 0
+		1 OR 1 = 0
+	
+	3.2.6 Puerta logica XOR
+		suma logica o binaria tambien llamada OR exclusiva
+		0 XOR 0 = 0
+ 		1 XOR 0 = 1
+ 		0 XOR 1 = 1
+		1 XOR 1 = 0
+	
+	3.2.7 Puerta logica XNOR
+		es la puerta XOR negada
+		0 XOR 0 = 1
+ 		1 XOR 0 = 0
+ 		0 XOR 1 = 0
+		1 XOR 1 = 1
+		
