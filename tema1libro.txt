@@ -1,0 +1,120 @@
+1-- Fundamentos de los sistemas informaticos y de las maquinas virtuales
+1.2-Arquitectura de un sistema informatico
+	Se entiende como sistema informatico una maquina que acepta unos datos de entrada, los procesa y genera unos resultados,
+	estan conmpustos por dos partes calaramente diferenciadas:
+		·Hardware: Conjunto de elemntos fisicamente tanjibles
+		·Software: parte intangible formada por instrucciones o datos que pueden ser interpretados o procesados
+	Los modelos informaticos actuales siguen el modelo de Von Neuman y Hardvar, este consta de las siguientes partes
+		a) Unidad de procesamietno, que es la encargada de la ejecucion y la interpretaciuon de instrucciones y datos, esta formada	
+			por la ALU y los registros
+		b) Memoria: Almacena las instrucciones y los datos
+		C) Dispositivos de entrada/salida: elementos que actuan de interfaz con el resto de partes
+	El modelo de hardvare mejoro la arquitectura de Von Neuman, ya que el acceso a datos e intrucciones se realiza de forma simultanea
+	
+1.3-Componentes de harawre de un sistema operativo
+	Es la parte fisica (Tanguible) de un ordenador
+	
+	1.3.1  Microporcesador
+		Es el circuito integrado encapsulado de altirimop nivel de integracion en los componentes que aloja, este conta con una o mas unidades
+		centrales de procesamiento CPU, las CPU  estan compuestas por:
+			a) Unidad de contros (UC): es la encargada del procesamiento de datos
+			b) Unidad aritmetico logica (UAL): es el encargado de realizar calculos aritmeticos y logicos a gran velocidad
+			c) Registros: memorias temporales de poca capacidad pero altisima velocidad
+		
+		Los Microporcesador actualesa lbergan la CPU ademas de muchos mas componentes, los mas importantes son:
+			·Nucleo: es la estructura que aloja las unidades funcionales de la CPU, es comun que los microprocesadores tengan mas de un nucleo
+			·Memorias Cache: memorias temporales de altisimavelocidad y cercanas al nucleo, hay varios nuveles:
+				-L1 Normalmente situada dentro de cada nucleo
+				-L2 suele estas situada fuera de los nucleos pero comprtida entre los varios nucleos
+				-L3 suele estar situadafuera de los nuecleos y ser compartida por todos ellos
+			·controlador de memoria: el encargado de gestionar la memoria ram
+			·Controlador grafico: hace referencia a la capacidad de calculo grafico de nuetra unidad, no todos lo microprocesadoresintegran esta posibilidad
+		
+	1.3.2 Memoria principal
+		La memoria principal del ordenador, se encuentra conectada a la CPU y la abastece de informacion e intrucciones, es una memoria
+		temporal lo que quiere decir que cuando falta corriente los datos se pierden
+		La memoria principal esta compuesta por:
+			a) Registros: estructuas de almacenamiento pertenecientes al nucleo de la CPU de muy poca capacidad pero de muy rapido acceso, el tamaño de estos
+				registros define la arquitectura de nuestro pc 32 bits y 64 bits.
+			b) Memoria cache: es la memoria intermedia entre los registros y la memora RAM que se encuantran en los nucleos o en el microprocesadore, a mayor 
+				capacidad mayor sera la capacidad de calculo de nuestro procesador.
+			c) Memoria RAM: Es la memoria principal ams alejada del microprocesador encontrandose fuera de este y montada en modulos, sus principales
+				caracteisticas son (capacidad, velocidad, latencia, numero de canales, tipo de modulos, tecnologia de los modulos)
+	
+	1.3.3 Placa base
+		es la placa sobre la que se montan todos los componentes y que se encarga de conectarles ya sea de manera directa o indirecta, estas estan diferenciadas
+		por factores de forma, las mas importantes son las ATX (es el factor mas usado actualmente teniendo variantes micro y mini) y las ITX (de dimentsiones mas pequeñas
+		aunque de menos capacidad de refrigeracion y montaje de componentes de gran tamaño, tambien hay variantes mini nano y pico)
+		
+		Los principales componentes de la plaac base son:
+			A) Chipset: es el microchip encargado de gestionar todos los componentes de la placa base
+			B) Zocalo: es donde se se coloca el procesador (su formato junto con el chipset definira los procesadores que podemos montar)
+			C) Ranuras de memora RAM: donde colocaremos la memoria ran, dependiendo de su foramto podremos montar uno u otro tipo de modulos
+			D)Ranuras de expansion: son las encargadas de permitirnos onstalar tarjetas de expansion, para amplificar las caracteristicas de nuestro equipo
+			E) BIOS: es un chip instalado en la placa encargado de guardar la bios de nuestro equipo
+			FyG)conectores interos y externos
+	
+	1.3.4 Dispositivosde almacenamieto secundario
+		Se emplean para almcanar informaciona  gran escala, son mucho mas lentos que la memoria principal pero nos permite el almacenamiento permanente de la informacion
+		A)Medios de almcenamiento Flash: SSD (solid state drive); tarjetas flash)
+		B)Dispositivos magneticos: HDD o cintas
+		C)Medios opticos: CD (compact disck), DVD (Digital Versatile disck) y Blu-ray
+	
+	1.3.5 Fuentes de alimentacion
+		se encargar de suministrar energia a todos los componentes del equipo, puedens er de diferentes tipos por sus contectores o por su tamaño, ademas de tener diferentes
+		certificaciones de calidad de la fuente de alimentacion, los voltajes de salida para las placas ATX son de 3,3 5 12 y -12 Voltios
+	
+	1.3.6 Perifericos
+		son los dispositivos atraves de los cuales un usuario interactua con el sistema imformatico
+
+1.4-Controladores de dospositivos. Instalacion de drivers
+	Todos los dispositivos hardware del sistema deben ser reconocidos, para esto existen los drivers, estos son los encargados de permitir el correcto funcionamiento de nuesttros dispositivos
+	hardware, el proceso de instalacion es el siguiente:
+		1) Leer el manual de instalacion
+		2) conocer las caracteristicas de nuestro equipo
+		3) conectar el componente o periferico al conector correspondiente (es posible que el fabricante nos indique conectarlo tras intalar el driver)
+		4) ejecutar el archivo del driver apra que se realice la intalacion
+		5) es recomendable realizar el equipo
+	
+	1.4.1 Administador de dispositivos en windows
+		atraves de esta aplicacion podemos realizar la instalacion y actualizacion de driver de manera automatica desde windwos, tambien nos dira que dispositivos no se encuentran bien
+		configurados, y nos permite gestionar nuestros dispositivos
+	
+	1.4.2Administracion de dispositivosen ubuntu desktop
+		linux suele reconocer la mayoria de dispositivos, pero si no es el caso podemos acceder a la configuracion desde el terminal con el comando "lshw"
+		
+		ubuntu instala los drivers de manera automatica y transparente para le usuario, para la administracion manual de esto podemosa cceder a Software y Actualizaciones
+		en donde en la pestaña controaldores adicionales aparecera un listado de los dispositivos y los posibles drivers a intalar
+		
+1.5-Componentes software de un sistema informatico
+	se denomina software o programa al conjunto de instruccioens que al ser ejecutadas llevan a cabo una o varias tareas relacionadas, la realcion entre sofware y hardware es tan estrecha que 
+	uno depende directamente del otro
+	
+	1.5.1 Tipos de software
+		Segun su uso puede ser 
+		a) sofware de sustena: hace referencia a cualquier programa que esta en contacto con el hardware y que actua de intermediario, gestor o administrados entere el usuario y el 
+			hardware. El mas conocido es el sistema operativo, otros ejemplos son BIOS, sistemas operativos, firmware de equipos, drivers de dispositivos, etc...
+		b) Conjunto de software necesario para el desarollo, diseño o implemtentacion de software de sistema o aplicacion. Aqui se incluyen editores, compiladores, depuradores de codigo y entornos 
+			desarollo (IDE)
+		c) Sofware de aplicacion: orientado a realizar tareasc oncretas y normalmente para un suo cotidiano por parte de un usuario final. Por ejemplo aplicaciones ofimatica
+	
+	1.5.2 Sistema operativo	
+		por sistema operativo podemos entender:
+			· Software que actua de interfaz entre el usuario y el hardware
+			· Software  que se encarga de gestionar eficazmente los recuros tanto hardware como software de forma transaparente para el usurio
+			· conjunto de programas encargados de facilitar la interaccion del usuario con la maquina aprovechadno todos sus recursos
+		
+		el sistema operativoes un conjunto de modulos que se encarga de realizar las tareas descritas anteriormente, este se encuentra en continuo desarollo, y se actualzia de manera continua
+		para evitar problemas y adaptarse a la evolucion tatno hardware como software
+	
+1.6-Proceso de arrancque post
+	todos los dispositivos de arranque se inician de una manera muy similar.
+	por tanto el inicio del ordenador comienza a ejecutar instrucciones de la ROM BIOS (esta se almacena previamente en la memoria principal), durante el proceso post se testean componentes fundamentales
+	para detectar problemas que seran comunicados mediante señales sonoras y visuales, si error es muy grave se detendra el inicio o continuara
+
+1.7 Maquinas virtuales
+	es el sistema que nos permite virtualizar una sistema completo dentro de nustro propio sistema el cual es llamado como HOST
+
+1.8 Virtual Box
+	es un software de virtualizacion que nos permite simular maquinas en nuestro equipo host
+
